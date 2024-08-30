@@ -1,18 +1,30 @@
-<h1>Home</h1>
-
-<form action="/" method="post">
-  <div class="mb-3">
-    <label for="search" class="form-label">Puxar Placa</label>
-    <input
-      type="text"
-      class="form-control"
-      id="search-bar"
-      aria-describedby="search-bar"
-      name="placa"
-    />
-    <!--TODO Fazer a mascara de input -->
-    <!--TODO Fazer animação de label saindo do meio do input -->
+<div class="row align-items-stretch">
+  <div class="col-6">
+    <div class="d-flex flex-column">
+      <img src="imgs/carros-fundo-home.png" alt="" />
+    </div>
   </div>
 
-  <button type="submit" class="btn btn-primary">Buscar</button>
-</form>
+  <div class="col-6">
+    <div class="d-flex flex-column justify-content-center h-100">
+      <div class="mx-5">
+        <form action="/" method="post">
+          <div class="mb-3">
+            <label for="search" class="form-label">Puxar Placa</label>
+            <input
+              type="text"
+              class="form-control"
+              id="search-bar"
+              aria-describedby="search-bar"
+              name="placa"
+            />
+            <!--TODO Fazer a mascara de input -->
+            <!--TODO Fazer animação de label saindo do meio do input -->
+          </div>
+
+          <button type="submit" class="btn btn-primary">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
